@@ -1,0 +1,22 @@
+--------------------Configuration: numdll - Win32 Debug--------------------
+Begining build with project "C:\TEMP\dontcpp\numdll\numdll.dsp", at root.
+Active configuration is Win32 (x86) Dynamic-Link Library (based on Win32 (x86) Dynamic-Link Library)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/numdll.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x2c0a /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/numdll.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/numdll.pdb" /debug /machine:I386 /def:".\numdll.def" /out:"Debug/numdll.dll" /implib:"Debug/numdll.lib" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WME\TEMP\RSP5384.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /dll /incremental:yes /pdb:"Debug/numdll.pdb" /debug /machine:I386 /def:".\numdll.def" /out:"Debug/numdll.dll" /implib:"Debug/numdll.lib" /pdbtype:sept 
+.\Debug\numdll.obj>
+Creating command line "link.exe @C:\WME\TEMP\RSP5384.TMP" 
+Linking...
+   Creating library Debug/numdll.lib and object Debug/numdll.exp
+
+
+
+numdll.dll - 0 error(s), 0 warning(s)

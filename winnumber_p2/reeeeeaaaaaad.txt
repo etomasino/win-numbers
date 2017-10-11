@@ -1,0 +1,35 @@
+Al implementar el las funciones me vi obligado a cambiar el orden de
+las funciones, pasando algunas que se ejecutaban al final del proceso
+hacia adelante.
+Esto trajo como consecuencia un notable conflicto en cuanto al valor de
+cnt. Hay que reparar todo..
+-----------------------------------------
+Terminar de implementar el trozo de codigo que actualiza el valor de
+prty
+//////////////////////////////////////////////
+La puta que lo re pario,
+ahora vuelvo a tener problemas con las variables globales.
+Al parecer pueden ser vistas desde la funcion OnOKBUTON(), pero no
+dentro de las funciones que en esta se ejecutan, al parecer estas
+toman como argumento otra variablo, o vaya saber que mierda. El programa
+sigue sin funcionar correctamente;
+//////////////////////////////////
+Parece que estoy encontrando una beta,,
+hay que probrar declarando todas las funciones pero como miembros de la clase CWinNumDlg::
+De esta forma, alomejor puedan tener acceso a las variables
+Ya implemente el gran cambio, falta terminar el codigo del botno OK..
+Prestar atencion a la funcion situation().
+///////////////////////////////////////////////////
+Yeahhhhh!!!
+Gran avance, 
+no solo pude terminar de implementar el programa, sino que tambien
+repare algunos errores,
+probar 4132
+//////////////////////////
+probar 5413
+
+/////////////////////////////////////////
+Sigo reparando errores, pero hoy se me ocurrieron nuevas mejoras:
+Puede llegar a ser arriesgado pero se puedeprobar implementar la funcion
+jusgoods no solo al descubrir los cuatro numeros, sino cada vez
+que descubrimos uno de forma individual.

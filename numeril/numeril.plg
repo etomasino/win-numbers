@@ -1,0 +1,31 @@
+--------------------Configuration: numeril - Win32 Debug--------------------
+Begining build with project "C:\TEMP\dontcpp\numeril\numeril.dsp", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/numeril.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x2c0a /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/numeril.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/numeril.pdb" /debug /machine:I386 /out:"Debug/numeril.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WME\TEMP\RSP5353.TMP" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/numeril.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\TEMP\dontcpp\numeril\numeril.c"
+>
+Creating command line "cl.exe @C:\WME\TEMP\RSP5353.TMP" 
+Creating temp file "C:\WME\TEMP\RSP5354.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/numeril.pdb" /debug /machine:I386 /out:"Debug/numeril.exe" /pdbtype:sept 
+.\Debug\numeril.obj>
+Creating command line "link.exe @C:\WME\TEMP\RSP5354.TMP" 
+Compiling...
+numeril.c
+C:\TEMP\dontcpp\numeril\numeril.c(140) : warning C4013: 'time' undefined; assuming extern returning int
+C:\TEMP\dontcpp\numeril\numeril.c(327) : warning C4244: '=' : conversion from 'double ' to 'float ', possible loss of data
+C:\TEMP\dontcpp\numeril\numeril.c(614) : warning C4133: 'function' : incompatible types - from 'struct hidden *' to 'struct posib *'
+C:\TEMP\dontcpp\numeril\numeril.c(643) : warning C4133: 'function' : incompatible types - from 'struct hidden *' to 'struct posib *'
+C:\TEMP\dontcpp\numeril\numeril.c(862) : warning C4133: 'function' : incompatible types - from 'struct hidden *' to 'struct posib *'
+Linking...
+
+
+
+numeril.exe - 0 error(s), 5 warning(s)

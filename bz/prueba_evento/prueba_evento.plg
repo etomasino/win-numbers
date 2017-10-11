@@ -1,0 +1,26 @@
+--------------------Configuration: prueba_evento - Win32 Debug--------------------
+Begining build with project "C:\TEMP\dontcpp\bz\prueba_evento\prueba_evento.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/prueba_evento.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x2c0a /fo"Debug/prueba_evento.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/prueba_evento.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"Debug/prueba_evento.pdb" /debug /machine:I386 /out:"Debug/prueba_evento.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WME\TEMP\RSP363.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /Fp"Debug/prueba_evento.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"C:\Temp\dontcpp\bz\prueba_evento\prueba_eventoDlg.cpp"
+>
+Creating command line "cl.exe @C:\WME\TEMP\RSP363.TMP" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/prueba_evento.pdb" /debug /machine:I386 /out:"Debug/prueba_evento.exe" /pdbtype:sept  .\Debug\prueba_evento.obj .\Debug\prueba_eventoDlg.obj .\Debug\StdAfx.obj .\Debug\prueba_evento.res" 
+Compiling...
+prueba_eventoDlg.cpp
+C:\Temp\dontcpp\bz\prueba_evento\prueba_eventoDlg.cpp(176) : error C2065: 'nWait' : undeclared identifier
+Error executing cl.exe.
+
+
+
+prueba_evento.exe - 1 error(s), 0 warning(s)

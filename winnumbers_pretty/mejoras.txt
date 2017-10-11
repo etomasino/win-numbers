@@ -1,0 +1,12 @@
+Menos ERRORES:
+vkp_simplificator():
+- En GR4_PRTY75_25, en el caso que prty==75 para el primer grupo de
+numeros, hay un error en el codigo que pasa los valores a justout
+y chanceless, ya que la segunda condicion no comprueba que la cifra 
+tenga un valor mayor a -1 en pos, por lo que puede confundir al programa.
+- En GR3_PRTY50_25, otro error en un condicional en el que se quieren 
+comparar dos valores para verificar que sean iguales pero entre medio
+de estos erroneamente hay un caracter de asignacion '=', en ves del
+comparativo '=='.
+
+

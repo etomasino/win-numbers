@@ -1,0 +1,12 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;NumsDll.def
+; Default File
+
+
+
+LIBRARY	numdll
+CODE	PRELOAD MOVEABLE DISCARDABLE
+DATA	PRELOAD SINGLE
+
+EXPORTS
+show

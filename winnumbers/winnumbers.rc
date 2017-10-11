@@ -1,0 +1,306 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 61
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About WinNumbers"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,21,20
+    LTEXT           "WinNumbers Version 1.0",IDC_STATIC,41,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2002",IDC_STATIC,43,41,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,32,14,WS_GROUP
+    LTEXT           "By Vukep McRae",IDC_STATIC,41,18,65,12
+    PUSHBUTTON      "Crack It!",IDC_BUTTON1,165,21,45,21
+END
+
+IDD_WINNUMBERS_DIALOG DIALOGEX 0, 0, 191, 278
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "WinNumbers"
+FONT 8, "Verdana"
+BEGIN
+    PUSHBUTTON      "Play",IDC_PLAYBUT,48,5,95,41,BS_MULTILINE | BS_FLAT
+    EDITTEXT        IDC_TRY_EDIT,10,89,56,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER | WS_DISABLED
+    EDITTEXT        IDC_GOODS_EDIT,78,89,27,12,ES_CENTER | ES_NUMBER | 
+                    WS_DISABLED
+    EDITTEXT        IDC_REGS_EDIT,116,89,26,12,ES_CENTER | ES_NUMBER | 
+                    WS_DISABLED
+    PUSHBUTTON      "OK",IDC_OKBUTTON,154,91,22,19,WS_DISABLED
+    EDITTEXT        IDC_MESSAGES_EDIT,10,123,169,21,ES_CENTER | ES_MULTILINE | 
+                    ES_READONLY | NOT WS_BORDER
+    EDITTEXT        IDC_CNT_EDIT,13,255,18,12,ES_CENTER | ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    CTEXT           "Regs",IDC_REGS_STATIC,116,77,26,12,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "Goods",IDC_GOODS_STATIC,78,77,27,12,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "Number",IDC_TRY_STATIC,10,77,56,12,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    GROUPBOX        "Counter",IDC_STATIC,5,247,35,25,WS_DISABLED
+    PUSHBUTTON      "+",IDC_GOODSP_BUT,92,101,13,9,BS_CENTER | BS_VCENTER | 
+                    WS_DISABLED
+    PUSHBUTTON      "+",IDC_REGSP_BUT,129,101,13,9,BS_CENTER | BS_VCENTER | 
+                    WS_DISABLED
+    PUSHBUTTON      "-",IDC_GOODSL_BUT,79,101,13,9,BS_CENTER | BS_VCENTER | 
+                    WS_DISABLED
+    PUSHBUTTON      "-",IDC_REGSL_BUT,116,101,13,9,BS_CENTER | BS_VCENTER | 
+                    WS_DISABLED
+    EDITTEXT        IDC_TEMP_EDIT,114,259,28,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Restart",IDC_RESTART_BUT,47,46,96,20,BS_MULTILINE | 
+                    BS_FLAT | WS_DISABLED,WS_EX_DLGMODALFRAME | 
+                    WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    GROUPBOX        "Help!",IDC_STATIC,9,113,173,32,BS_CENTER | WS_DISABLED
+    GROUPBOX        "Machine Asking",IDC_STATIC,5,67,181,81,BS_CENTER | 
+                    WS_DISABLED
+    GROUPBOX        "User Asking",IDC_STATIC,5,152,181,80,BS_CENTER | 
+                    WS_DISABLED
+    EDITTEXT        IDC_TRY_EDIT_UA,10,173,56,12,ES_CENTER | ES_NUMBER | 
+                    WS_DISABLED
+    EDITTEXT        IDC_GOODS_EDIT_UA,78,173,27,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER | WS_DISABLED | NOT WS_TABSTOP
+    EDITTEXT        IDC_REGS_EDIT_UA,116,173,26,12,ES_CENTER | ES_READONLY | 
+                    ES_NUMBER | WS_DISABLED | NOT WS_TABSTOP
+    CTEXT           "Regs",IDC_REGS_STATIC_UA,116,161,26,12,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "Goods",IDC_GOODS_STATIC_UA,78,161,27,12,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    CTEXT           "Number",IDC_TRY_STATIC_UA,10,161,56,12,SS_CENTERIMAGE,
+                    WS_EX_CLIENTEDGE
+    PUSHBUTTON      "OK",IDC_OKBUTTON_UA,154,166,22,19,WS_DISABLED
+    CONTROL         "Progress1",IDC_UAPROGRESS,"msctls_progress32",NOT 
+                    WS_VISIBLE,39,221,113,9
+    GROUPBOX        "Help!",IDC_STATIC,9,187,173,32,BS_CENTER | WS_DISABLED
+    EDITTEXT        IDC_MESSAGES_EDIT_UA,11,196,169,21,ES_CENTER | 
+                    ES_MULTILINE | ES_READONLY | NOT WS_BORDER
+    CONTROL         "Enable Log",IDC_LOG_CHECK,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,57,254,53,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "WinNumbers MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "WinNumbers\0"
+            VALUE "LegalCopyright", "Copyright (C) 1902\0"
+            VALUE "OriginalFilename", "WinNumbers.EXE\0"
+            VALUE "ProductName", "WinNumbers Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 54
+    END
+
+    IDD_WINNUMBERS_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 186
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 272
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About WinNumbers..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.K.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENG)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_UK
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_LOG_DIALOG DIALOGEX 0, 0, 186, 122
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "WinNumber LogFile"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_LOG_EDIT,0,0,186,86,ES_MULTILINE | ES_WANTRETURN | 
+                    NOT WS_BORDER
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_NUMPIC              BITMAP  DISCARDABLE     "vkp2.bmp"
+#endif    // English (U.K.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Spanish (Castilian) (unknown sub-lang: 0xB) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ESS)
+#ifdef _WIN32
+LANGUAGE LANG_SPANISH, 0xB
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\WinNumbers.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\WinNumbers.ico"
+#endif    // Spanish (Castilian) (unknown sub-lang: 0xB) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\WinNumbers.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
